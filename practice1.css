@@ -1,0 +1,68 @@
+/* General Page Styles */
+body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: #fff9f4;
+   color: #333;
+   margin: 20px;
+   line-height: 1.6;
+}
+
+/* Header */
+h1 {
+   color: #d2691e;
+   font-size: 2.5em;
+   margin-bottom: 10px;
+   text-align: center;
+}
+
+h2 {
+   color: #a0522d;
+   margin-top: 30px;
+   border-bottom: 2px solid #ffe4c4;
+   padding-bottom: 5px;
+}
+
+h3, h4 {
+   color: #8b4513;
+   margin-top: 20px;
+}
+
+/* Pancake Image */
+#pancake {
+   display: block;
+   margin: 0 auto 20px auto;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Lists */
+ul, ol {
+   margin-left: 40px;
+}
+
+ul li, ol li {
+   margin-bottom: 8px;
+}
+
+/* Paragraphs */
+p {
+   margin-bottom: 15px;
+}
+
+/* FAQ Section */
+h4 {
+   margin-bottom: 5px;
+   font-weight: bold;
+}
+
+/* Tips and FAQs */
+ul li::before {
+   content: "🥞 ";
+   margin-right: 5px;
+}
+
+/* Optional: Add a max-width for better readability */
+body {
+   max-width: 800px;
+   margin: 0 auto;
+}
