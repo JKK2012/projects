@@ -33,3 +33,12 @@
       color: #333;
       font-weight: bold;
    }
+   footer{
+      background-color: #002244;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+   }
