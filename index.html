@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>Expense Tracker</h1>
+        <p class="subtitle">Track spending with a simple JavaScript app.</p>
+      </header>
+
+      <form id="expense-form" class="expense-form">
+        <div class="form-grid">
+          <label>
+            Expense Name
+            <input type="text" id="name" placeholder="Groceries" required />
+          </label>
+
+          <label>
+            Category
+            <input type="text" id="category" placeholder="Food" />
+          </label>
+
+          <label>
+            Amount
+            <input type="number" id="amount" step="0.01" min="0" placeholder="0.00" required />
+          </label>
+
+          <label>
+            Date
+            <input type="date" id="date" required />
+          </label>
+        </div>
+
+        <button type="submit">Add Expense</button>
+      </form>
+
+      <section class="summary">
+        <h2>Summary</h2>
+        <p>Total spent: <strong id="total-amount">$0.00</strong></p>
+      </section>
+
+      <section class="table-section">
+        <h2>Recent Expenses</h2>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Category</th>
+                <th>Amount</th>
+                <th>Date</th>
+              </tr>
+            </thead>
+            <tbody id="expense-table-body">
+              <tr>
+                <td colspan="4" class="empty">No expenses recorded yet.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
