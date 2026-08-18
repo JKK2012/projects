@@ -10,7 +10,7 @@ function formatCurrency(value) {
     currency: 'KES'
   }).format(value);
 }
-
+/*add a function to render the expenses in the table and update the total amount*/
 function renderExpenses() {
   if (expenses.length === 0) {
     tableBody.innerHTML = `
