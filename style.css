@@ -103,6 +103,17 @@ button:hover {
   background: #1d4ed8;
 }
 
+.delete-expense {
+  margin-top: 0;
+  background: #dc2626;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+}
+
+.delete-expense:hover {
+  background: #b91c1c;
+}
+
 .summary,
 .table-section {
   background: #ffffff;
